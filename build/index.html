@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Notinum</title>
+	<link rel="stylesheet" href="../node_modules/normalize-css/normalize.css">
+	<link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/media.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="logo">
+            <a href="#">
+              <img src="img/logo.png" alt="logo">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <nav>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-111 col-sm-offset-1">
+          <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Testimonials</a></li>
+            <li><a href="#">Why us</a></li>
+            <li><a href="#">Contact us</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <section id="carousel" class="carousel slide">
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="img/bg_1.jpg" alt="background 1">
+        <div class="carousel-caption">
+          <h1>Heading 1</h1>
+          <form action="#" class="request">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="name" required>
+              <input type="tel" class="form-control" placeholder="phone" required>
+              <input type="email" class="form-control" placeholder="email" required>
+              <input type="text" class="form-control" placeholder="amount" required>
+            </div>
+            <button class="btn btn-primary" type="submit"data-toggle="modal" data-target="#myModal">make request</button>
+          </form>
+
+        </div>
+      </div>
+      <div class="item">
+        <img src="img/bg_2.jpg" alt="background 2">
+        <div class="carousel-caption">
+          <h1>Heading 2</h1>
+        </div>
+      </div>
+      <div class="item">
+        <img src="img/bg_3.png" alt="background 3">
+        <div class="carousel-caption">
+          <h1>Heading 3</h1>
+        </div>
+      </div>
+    </div>
+    <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </section>
+  <section class="info">
+    <div class="container">
+      <div class="row">
+        <div class="article col-sm-4">
+          <img src="img/img_1.jpg" alt="image for article">
+          <h3>Article</h3>
+          <p>
+            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Velit animi aliquam saepe voluptatem dolores amet nam blanditiis
+              maxime, quod recusandae cumque impedit dicta, architecto incidunt,
+               aliquid fugit eius? Eaque, explicabo?
+            </span>
+            <span>Recusandae, veniam, vitae. Facilis sunt earum quas voluptatem!
+               Asperiores, maiores. Ducimus iusto numquam, a officiis nihil
+               ratione dignissimos aut provident incidunt, eos sunt tempore,
+               culpa voluptas possimus nemo pariatur eligendi.
+            </span>
+          </p>
+          <a href="#">Read more</a>
+        </div>
+        <div class="article col-sm-4">
+          <img src="img/img_1.jpg" alt="image for article">
+          <h3>Article</h3>
+          <p>
+            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Velit animi aliquam saepe voluptatem dolores amet nam blanditiis
+              maxime, quod recusandae cumque impedit dicta, architecto incidunt,
+               aliquid fugit eius? Eaque, explicabo?
+            </span>
+            <span>Recusandae, veniam, vitae. Facilis sunt earum quas voluptatem!
+               Asperiores, maiores. Ducimus iusto numquam, a officiis nihil
+               ratione dignissimos aut provident incidunt, eos sunt tempore,
+               culpa voluptas possimus nemo pariatur eligendi.
+            </span>
+          </p>
+          <a href="#">Read more</a>
+        </div>
+        <div class="article col-sm-4">
+          <img src="img/img_1.jpg" alt="image for article">
+          <h3>Article</h3>
+          <p>
+            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Velit animi aliquam saepe voluptatem dolores amet nam blanditiis
+              maxime, quod recusandae cumque impedit dicta, architecto incidunt,
+               aliquid fugit eius? Eaque, explicabo?
+            </span>
+            <span>Recusandae, veniam, vitae. Facilis sunt earum quas voluptatem!
+               Asperiores, maiores. Ducimus iusto numquam, a officiis nihil
+               ratione dignissimos aut provident incidunt, eos sunt tempore,
+               culpa voluptas possimus nemo pariatur eligendi.
+            </span>
+          </p>
+          <a href="#">Read more</a>
+        </div>
+      </div>
+      <div class="big-article row">
+        <div class="col-xs-12 col-sm-10 col-sm-offset-1">
+          <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, quis, consequatur dolorem quaerat, autem fugit hic minus dolor vitae harum rem quidem ipsa repudiandae veritatis illo quisquam vero cumque mollitia.</span>
+          <span>Quos officiis nesciunt, error laborum numquam. Aut omnis alias nam tempore, illum adipisci a autem perspiciatis dolorum modi. Fugit temporibus aut quae molestiae, aperiam tempora voluptatum est ipsum, saepe ab.</span>
+          <span>Earum eius inventore quibusdam, voluptatum, blanditiis eum, dicta sint qui possimus delectus dignissimos! Impedit nam tenetur autem, saepe ea repudiandae, non soluta, magni perferendis neque dolor, deleniti consequuntur? Odio, sequi.</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="pagination-container">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <ul class="pagination pagination-lg">
+            <li><a href="#">&laquo;</a></li>
+            <li><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+            <li><a href="#">&raquo;</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="address">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-5">
+          <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem veniam illum ea nostrum labore repudiandae. Impedit dolorum alias rerum esse voluptatum quisquam veritatis. Quam facere commodi, quos magni quia voluptatibus.</span>
+          <span>Quasi at, vero, cum exercitationem neque a accusantium saepe obcaecati atque aut minus ut ea corrupti non modi recusandae, odio. Maxime sit, et voluptate quod! Repudiandae nemo, reprehenderit amet. Quos?</span>
+        </div>
+        <div class="col-sm-7">
+          <div id="map"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="about">
+            <h2>About us</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla architecto a iusto iure, ipsum quis maxime! Eos eaque, quae amet aliquam soluta ea obcaecati aspernatur quo excepturi ipsam, maiores ipsum.</p>
+          </div>
+        </div>
+        <div class="col-sm-8">
+          <div class="contact">
+            <div class="row">
+              <div class=" col-xs-5 col-sm-5 col-sm-offset-1">
+                <h2>Contact us</h2>
+              </div>
+              <div class="col-xs-7 col-sm-6">
+                <form action="#">
+                  <textarea name="name" rows="8" placeholder="Send message to us"></textarea>
+                  <a href="#">contact page</a>
+                  <button class="btn btn-primary" type="submit">Send</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="myModalLabel">Congratulations!</h4>
+        </div>
+        <div class="modal-body">
+          Request has been sent.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="js/app.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?callback=initMap" async defer></script>
+
+</body>
+</html>

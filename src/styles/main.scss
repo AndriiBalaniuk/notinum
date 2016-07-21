@@ -1,0 +1,122 @@
+header {
+  height: 60px;
+  line-height: 60px;
+  background-color: #0c3759;
+}
+nav {
+  .menu {
+    position: absolute;
+    list-style-type: none;
+    top: 59px;
+    margin: 0;
+    padding: 0;
+    z-index: 10;
+    li {
+      display: inline-block;
+      a {
+        display: block;
+        color: #fff;
+        line-height: 35px;
+        font-size: 16px;
+        padding: 5px 15px;
+        &:hover {
+          background-color: rgba(12, 55, 89, .5);
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+#carousel {
+  margin-top: -1px;
+  .item {
+    img {
+      height: 500px;
+      width: 100%;
+      object-fit: cover;
+    }
+    .carousel-caption {
+      top: 10%;
+      h1 {
+        text-align: left;
+        float: left;
+      }
+      form {
+        float: right;
+        width: 300px;
+        background-color: rgba(12, 55, 89, .5);
+        padding: 30px 15px;
+        border-radius: 4px;
+        input {
+          margin-bottom: 10px;
+        }
+        button {
+          margin-top: 10px;
+          float: right;
+        }
+      }
+    }
+  }
+}
+.info {
+  padding: 40px 0;
+  .article {
+    text-align: center;
+    h3 {
+      text-align: left;
+      margin-top: 10px;
+    }
+    img {
+      height: 130px;
+      width: 130px;
+      border-radius: 50%;
+    }
+    p {
+      margin-bottom: 15px;
+    }
+    a {
+      display: inline-block;
+      margin-bottom: 20px;
+      font-size: 17px;
+    }
+  }
+  .big-article {
+    margin-top: 50px;
+    p {
+      font-size: 16px;
+    }
+  }
+}
+.pagination-container {
+  text-align: center;
+}
+.address {
+  padding: 40px 0;
+  p {
+    font-size: 16px;
+  }
+  #map {
+    height: 300px;
+  }
+}
+footer {
+  color: #FFF;
+  background-color: #0c3759;
+  padding: 25px 0;
+  .contact {
+    border-left: 1px solid #fff;
+    form {
+      textarea {
+        width: 100%;
+        margin-top: 20px;
+        padding: 15px;
+        color: #4a4a4a;
+        margin-bottom: 10px;
+        border-radius: 4px;
+      }
+      button {
+        float: right;
+      }
+    }
+  }
+}
